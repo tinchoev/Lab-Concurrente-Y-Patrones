@@ -19,7 +19,7 @@ public class Main {
         PaginaWeb paginaWeb = new PaginaWeb(serAm);
         ExecutorService executor = Executors.newFixedThreadPool(20);
         
-        for(int i=0; i<20; i++) {
+        for(int i=1; i<=20; i++) {
             executor.execute(new Usuario("usuario "+i, Integer.toString(i), paginaWeb));
         }
         

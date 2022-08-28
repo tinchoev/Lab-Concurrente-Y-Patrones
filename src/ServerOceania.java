@@ -9,7 +9,9 @@ public class ServerOceania extends Server {
 
     public ServerOceania(Server unServer) {
         super(unServer);
-        usuarios.put("oceniaUser", "oceania");
+        usuarios.put("usuario 1", "1");
+        usuarios.put("usuario 2", "2");
+        usuarios.put("usuario 3", "3");
         nombre = "Servidor de Oceanía";
     }
 }

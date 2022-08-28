@@ -9,7 +9,9 @@ public class ServerEuropa extends Server {
 
     public ServerEuropa(Server unServer) {
         super(unServer);
-        usuarios.put("europaUser", "europa");
+        usuarios.put("usuario 4", "4");
+        usuarios.put("usuario 5", "5");
+        usuarios.put("usuario 6", "6");
         nombre = "Servidor de Europa";
     }
 }

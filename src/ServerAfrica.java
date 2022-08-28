@@ -9,7 +9,9 @@ public class ServerAfrica extends Server {
 
     public ServerAfrica(Server unServer) {
         super(unServer);
-        usuarios.put("africaUser", "africa");
+        usuarios.put("usuario 13", "13");
+        usuarios.put("usuario 14", "14");
+        usuarios.put("usuario 15", "15");
         nombre = "Servidor de África";
     }
 }

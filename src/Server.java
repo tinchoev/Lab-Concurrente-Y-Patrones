@@ -19,7 +19,7 @@ public class Server {
     }
     
     public boolean verificarUsuario(String nombreDeUsuario, String password) {
-        if(this.nombreDeUsuarioValido(nombreDeUsuario) || this.passwordValida(nombreDeUsuario, password)) {
+        if(this.nombreDeUsuarioValido(nombreDeUsuario) && this.passwordValida(nombreDeUsuario, password)) {
             System.out.println(nombreDeUsuario+" ingresó a la página por "+nombre);
             return true;
         }
